@@ -1,4 +1,4 @@
-![ChapaTech Logo](chapatech_logo.png)
+![ChapaTech Logo](chapatech_logo_hacker.png)
 
 # ChapaTech
 
