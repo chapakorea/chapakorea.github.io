@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChapaTech</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, #0b1220, #111a2e);
+      color: white;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      font-weight: bold;
+      font-size: 22px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: #9aa4b2;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 80px;
+    }
+
+    .hero img {
+      width: 420px;
+      max-width: 90%;
+      margin-bottom: 30px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .hero p {
+      color: #9aa4b2;
+      font-size: 20px;
+      margin-top: 15px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      background: #1da1f2;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      background: #0d8ae0;
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #16213a;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="brand">ChapaTech</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+
+  <img src="chapatech_logo.png" alt="ChapaTech logo">
+
+  <h1>ChapaTech</h1>
+
+  <p>
+    Web and Mobile Application Development
+  </p>
+
+  <a href="#contact" class="button">
+    Contact
+  </a>
+
+</section>
+
+<section class="section" id="services">
+
+  <h2>Services</h2>
+
+  <div class="services">
+
+    <div class="card">
+      <h3>Web Applications</h3>
+      <p>Modern web apps using Vue, React, and cloud technologies.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mobile Apps</h3>
+      <p>Cross-platform apps for Android and iOS.</p>
+    </div>
+
+    <div class="card">
+      <h3>Custom Software</h3>
+      <p>Tailored solutions for businesses and startups.</p>
+    </div>
+
+    <div class="card">
+      <h3>Cloud Integration</h3>
+      <p>Supabase, Firebase, APIs, and scalable backend systems.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="section" id="contact">
+
+  <h2>Contact</h2>
+
+  <p>
+    Email: contact@chapatech.com
+  </p>
+
+</section>
+
+<footer>
+  © 2026 ChapaTech. All rights reserved.
+</footer>
+
+</body>
+</html>
